@@ -6,17 +6,13 @@ Assume you are given a positive integer variable named `N`. Write a piece of Pyt
 
 ```python
 N = 27
+counter = 1
 
-if N < 0:
-    cube_of_N = -abs(N) ** (1/3)
-    if cube_of_N ** 3 == -abs(N):
-        print(cube_of_N)
-    else:
-        print('error')
+while counter**3 < N:
+    counter += 1
+if counter**3 == N:
+    print(counter)
 else:
-    cube_of_N = N ** (1/3)
-    if cube_of_N ** 3 == N:
-       print(cube_of_N)
-    else:
-       print('error')
+    print('error')
+
 ```
