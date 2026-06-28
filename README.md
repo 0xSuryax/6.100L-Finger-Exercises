@@ -1,4 +1,4 @@
-#6.100L | Fall 2022 | Undergraduate
+# 6.100L | Fall 2022 | Undergraduate
 
 ## FINGER EXERCISES
 
